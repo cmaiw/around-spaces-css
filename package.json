@@ -1,0 +1,21 @@
+{
+  "name": "around-spaces-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "htmlhint": "^0.11.0",
+    "node": "^12.13.0",
+    "posthtml-modules": "^0.4.2"
+  },
+  "devDependencies": {
+    "posthtml-include": "^1.3.2",
+    "sass": "^1.23.3"
+  }
+}
