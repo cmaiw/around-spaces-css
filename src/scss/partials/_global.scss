@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: $primary-color;
+  background: $background-color;
+  font-family: $font-family;
+}
+
+header {
+  text-align: center;
+}
