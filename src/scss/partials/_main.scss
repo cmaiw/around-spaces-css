@@ -1,0 +1,35 @@
+main {
+  justify-content: center;
+  .card {
+    display: flex;
+    max-width: 500px;
+    max-height: 150px;
+    margin: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 20px;
+    background-color: $secondary-color;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    &__img {
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      align-items: stretch;
+    }
+
+    &__content {
+      flex-direction: flex-start;
+      flex-wrap: wrap;
+      color: $primary-color;
+    }
+  }
+
+  .img {
+    object-fit: cover;
+    max-width: auto;
+    max-height: 150px;
+    object-position: top-center;
+    border-radius: 20px 0 0 20px;
+  }
+}

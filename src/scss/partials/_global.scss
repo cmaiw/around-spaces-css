@@ -5,11 +5,21 @@
 }
 
 body {
-  color: $primary-color;
-  background: $background-color;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
   font-family: $font-family;
+  text-align: center;
+  background: $background;
+  color: $secondary-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 header {
-  text-align: center;
+  min-height: 70px;
+  width: auto;
 }
